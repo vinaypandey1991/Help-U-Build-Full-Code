@@ -8,7 +8,7 @@ function ArchitectProfile() {
                 <section className='architecture-section-one'>
                     <div className='container-fluid architecture-section-p pt-3'>
                         <div className='row'>
-                            {/* Breadcrumb */}
+                            {/* Breadcrumbhy */}
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
                                     <li className="breadcrumb-item">
