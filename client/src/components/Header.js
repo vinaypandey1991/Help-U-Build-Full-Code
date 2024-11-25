@@ -101,7 +101,7 @@ console.log(sessionData)
                         </Link>
                       </li>
                       <li>
-                        <Link onClick={handleLinkClick} to="/Architecture" className={active === "/Architecture" ? "active" : ""}>
+                        <Link onClick={handleLinkClick} to="/talk-to-architect" className={active === "/talk-to-architect" ? "active" : ""}>
                           Talk to Architect
                         </Link>
                       </li>

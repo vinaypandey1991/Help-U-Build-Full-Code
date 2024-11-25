@@ -24,6 +24,8 @@ import MemberProfile from "./pages/Profiles/MemberProfile";
 import UserDashboard from "./pages/User_Dashboard/UserDashboard";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import TalkToArchitect from "./pages/Services/TalkToArchitect";
+import ArchitectProfile from "./pages/Services/ArchitectProfile";
 // Scroll to top component
 function ScrollToTop() {
   const location = useLocation();
@@ -54,6 +56,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/Architecture" element={<Architecture />} />
+        <Route path="/talk-to-architect" element={<TalkToArchitect />} />
+        <Route path="/architect-profile" element={<ArchitectProfile />} />
         <Route path="/Interior" element={<Interior />} />
         <Route path="/Vastu" element={<Vastu />} />
         <Route path="/Construction-mall" element={<ConstructionMall />} />
@@ -63,7 +67,6 @@ function App() {
         {/* user authontication rout */}
         <Route path="/user-register" element={<Register />} />
         <Route path="/profile" element={<UserDashboard />} />
-
         <Route path="/login" element={<Login />} />
         <Route path="/otp-verification/user" element={<VerifyEmail />} />
         <Route path="/talk-to-interior" element={<TalkToInterior />} />
